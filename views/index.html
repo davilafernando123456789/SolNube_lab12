@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agenda de Contactos</title>
+    <!-- Enlace a Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8sh+WyTs5M0LdK4ZfGg1djg8F5CiSNQlmh/Jp" crossorigin="anonymous">
+    <link href="https://cdn.datatables.net/v/dt/dt-1.13.7/datatables.min.css" rel="stylesheet">
+
+</head>
+<body>
+    <div class="container mt-5">
+        <h1 class="mb-4">Lista de Contactos</h1>
+        <!-- Agrega un ID a la tabla para que DataTables pueda identificarla -->
+        <table id="tablaContactos" class="table table-striped">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Nombre</th>
+                    <th>Apellidos</th>
+                    <th>Correo</th>
+                    <th>Fecha de Nacimiento</th>
+                    <th>Foto</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Aquí se llenarán los datos dinámicamente con JavaScript -->
+            </tbody>
+        </table>
+    </div>
+
+    <!-- Enlaces a Bootstrap JS y DataTables JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-Y3q5gF9s3G8O0pkj43jj9z9IsQOkdFQbI9blT3O5smAxFP5FPFqXFmy9aCsq0ja2" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8sh+WyTs5M0LdK4ZfGg1djg8F5CiSNQlmh/Jp" crossorigin="anonymous"></script>
+    <!-- Enlaces a DataTables JS y sus extensiones -->
+    <script src="https://cdn.datatables.net/v/dt/dt-1.13.7/datatables.min.js"></script>
+    <!-- Tu script personalizado (index.js) -->
+    <script src="/js/index.js"></script>
+</body>
+</html>
